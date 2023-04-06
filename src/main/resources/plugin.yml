@@ -1,0 +1,4 @@
+name: WardrobeClothes
+version: '${project.version}'
+main: org.wardrobeclothes.WardrobeClothes
+api-version: 1.18
