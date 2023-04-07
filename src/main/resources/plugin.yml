@@ -1,4 +1,11 @@
 name: WardrobeClothes
-version: '${project.version}'
+version: 1.0.0
 main: org.wardrobeclothes.WardrobeClothes
+author: Amon, Axmon, KreatingMania [Aliases]
+description: A simple Minecraft plugin for skin-changing and adding overlays on base skins.
 api-version: 1.18
+depend: [ProtocolLib]
+commands:
+  clothes:
+    description: Equip a custom skin or merge skin parts
+    usage: /clothes equip [skin_name]
